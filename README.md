@@ -10,7 +10,7 @@ pip install <package_name>
 ``` 
 Then, download the package using
 ```
-git clone git@github.com:latent-pixel/Lane-Detection-.git
+git clone git@github.com:latent-pixel/LaneDetection.git
 ```
 ## 1. Histogram Equalization
 To get a taste of the image preprocessing we might need when dealing with real-world data, we will first look at **Histogram Equalization** methods that are useful in "balancing" out image intensities. The goal is to make the image more visually appealing or suitable for further image processing tasks.
@@ -46,7 +46,7 @@ Upon running the package, we get a `.avi` file which contains the frames with la
 ![](results/lane_detection.png)
 
 
-## Problem 3: Turn Prediction
+## 3. Turn Prediction
 The goal is to detect curved lanes and predict the turn depending on the curvature: left or right. For this, we need compute the radius of curvature of the road by fitting a curve through the detected lane lines.
 
 ### Running the package
